@@ -130,6 +130,7 @@ please re-run %s with a package name matching one of the following:\n"
 
 /* pkglist.c */
 #define MSG_IS_INSTALLED_CODE "\n=: package is installed and up-to-date\n<: package is installed but newer version is available\n>: installed package has a greater version than available package\n"
+#define MSG_NO_SEARCH_RESULTS "No results found for %s\n"
 
 /* fsops.c */
 #define MSG_TRANS_FAILED "Failed to translate %s in repository config file"
